@@ -2,34 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Your First Three Hires — FoundersPath</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<title>Your First Three Hires — Two Weeks Out</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --ink: #1a2326;
-    --ink-soft: #374151;
-    --muted: #6b7280;
-    --muted-soft: #9ca3af;
-    --border: #e5e7eb;
-    --border-soft: #f1f3f5;
-    --bg: #ffffff;
-    --bg-soft: #fafaf7;
-    --green: #0f7a4f;
-    --bright: #3dbe7c;
-    --em-soft: #e8f1ec;
-    --cream: #e8dfc8;
-    --cream-soft: #f5efe0;
-    --amber: #b07d3a;
-    --amber-soft: #f4ead7;
-    --danger: #c46b6b;
-    --danger-soft: #f6e2e2;
-    --font-display: 'Source Serif 4', Georgia, serif;
-    --font-body: 'Inter', system-ui, sans-serif;
+  :root{
+    --ink:#10131a;
+    --ink-soft:#10131a;
+    --muted:#59616e;
+    --muted-soft:#9ba3af;
+    --border:#e9ecf5;
+    --border-soft:#e9ecf5;
+    --bg:#ffffff;
+    --bg-soft:#fbfaf6;
+    --green:#2747f5;
+    --bright:#2747f5;
+    --em-soft:#e9ecf5;
+    --cream:#d5d9e4;
+    --cream-soft:#e9ecf5;
+    --amber:#7d5300;
+    --amber-soft:#fff3cd;
+    --danger:#b3261e;
+    --danger-soft:#fde9e7;
+    --font-display:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --font-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     color: var(--ink);
     background: var(--bg-soft);
     line-height: 1.55;
@@ -55,16 +55,13 @@
     margin: 0 0 6px;
   }
   h1 {
-    font-family: var(--font-display);
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
     font-size: 32px;
     line-height: 1.2;
     color: var(--ink);
-    margin: 0 0 8px;
-    font-weight: 600;
-  }
+    margin: 0 0 8px;font-weight:800;letter-spacing:-.03em;font-style:normal;}
   .lede {
-    font-family: var(--font-display);
-    font-style: italic;
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-style:normal;
     color: var(--ink-soft);
     font-size: 16px;
     margin: 0;
@@ -82,19 +79,15 @@
     margin-bottom: 8px;
   }
   .step-num {
-    font-family: var(--font-display);
-    font-size: 28px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 28px;font-weight:800;
     color: var(--bright);
-    line-height: 1;
-  }
+    line-height: 1;letter-spacing:-.03em;font-style:normal;}
   .step-title {
-    font-family: var(--font-display);
-    font-size: 22px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 22px;font-weight:800;
     color: var(--ink);
-    line-height: 1.25;
-  }
+    line-height: 1.25;letter-spacing:-.03em;font-style:normal;}
   .step-sub {
     color: var(--muted);
     font-size: 14px;
@@ -103,12 +96,12 @@
   }
   label { font-size: 13px; color: var(--ink-soft); font-weight: 500; }
   select, input[type="text"], textarea {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 14px;
     color: var(--ink);
     background: white;
     border: 1px solid var(--border);
-    border-radius: 4px;
+    border-radius:0;
     padding: 8px 10px;
     width: 100%;
   }
@@ -149,14 +142,14 @@
     border: 1px dashed var(--green);
     color: var(--green);
     padding: 8px 14px;
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 13px;
     font-weight: 600;
-    border-radius: 4px;
+    border-radius:0;
     cursor: pointer;
     margin-top: 6px;
   }
-  .add-row:hover { background: #d6e9de; }
+  .add-row:hover { background: #e9ecf5; }
   .remove-row {
     background: transparent;
     border: none;
@@ -173,7 +166,7 @@
   /* Step 2 — Score grid */
   .score-card {
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius:0;
     padding: 18px 18px 14px;
     margin-bottom: 14px;
     background: white;
@@ -187,7 +180,7 @@
     border-bottom: 1px solid var(--border-soft);
   }
   .score-card-role {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: var(--ink);
@@ -224,7 +217,7 @@
     padding: 22px;
     background: var(--bg-soft);
     border: 1px dashed var(--border);
-    border-radius: 6px;
+    border-radius:0;
     text-align: center;
     color: var(--muted);
     font-size: 13px;
@@ -234,13 +227,13 @@
   /* Step 4 — Readiness */
   .ready-card {
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius:0;
     padding: 16px 18px;
     margin-bottom: 12px;
     background: white;
   }
   .ready-card-role {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: var(--ink);
@@ -263,7 +256,7 @@
   /* Step 5 — Form */
   .form-card {
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius:0;
     padding: 14px 18px;
     margin-bottom: 10px;
     display: grid;
@@ -273,7 +266,7 @@
     background: white;
   }
   .form-card-role {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: var(--ink);
@@ -291,12 +284,10 @@
   }
   .output-header .eyebrow { color: var(--bright); }
   .output-header h2 {
-    font-family: var(--font-display);
-    font-size: 26px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 26px;font-weight:800;
     color: var(--ink);
-    margin: 4px 0 6px;
-  }
+    margin: 4px 0 6px;letter-spacing:-.03em;font-style:normal;line-height:1.04;}
   .output-header p {
     color: var(--muted);
     font-size: 14px;
@@ -305,7 +296,7 @@
   }
   .hire-card {
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius:0;
     padding: 22px 24px;
     margin-bottom: 18px;
     background: white;
@@ -321,20 +312,16 @@
     margin-bottom: 10px;
   }
   .hire-rank {
-    font-family: var(--font-display);
-    font-size: 30px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 30px;font-weight:800;
     color: var(--green);
-    line-height: 1;
-  }
+    line-height: 1;letter-spacing:-.03em;font-style:normal;}
   .hire-rank-2 { color: var(--bright); }
   .hire-rank-3 { color: var(--amber); }
   .hire-role {
-    font-family: var(--font-display);
-    font-size: 21px;
-    font-weight: 600;
-    color: var(--ink);
-  }
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 21px;font-weight:800;
+    color: var(--ink);letter-spacing:-.03em;font-style:normal;}
   .hire-tags {
     display: flex;
     gap: 8px;
@@ -347,7 +334,7 @@
     text-transform: uppercase;
     font-weight: 600;
     padding: 3px 9px;
-    border-radius: 11px;
+    border-radius:0;
   }
   .tag-multiplier { background: var(--em-soft); color: var(--green); }
   .tag-doer { background: var(--cream-soft); color: var(--amber); }
@@ -365,16 +352,16 @@
     padding: 10px 12px;
     background: var(--danger-soft);
     border-left: 3px solid var(--danger);
-    border-radius: 3px;
+    border-radius:0;
     font-size: 13px;
-    color: #7a2828;
+    color: #b3261e;
   }
   .hire-readiness-warn strong { color: var(--danger); }
   .sequence-note {
     margin-top: 26px;
     padding: 16px 20px;
     background: var(--em-soft);
-    border-radius: 6px;
+    border-radius:0;
     color: var(--ink-soft);
     font-size: 14px;
     line-height: 1.6;
@@ -384,7 +371,7 @@
     padding: 36px;
     background: var(--bg-soft);
     border: 1px dashed var(--border);
-    border-radius: 6px;
+    border-radius:0;
     text-align: center;
     color: var(--muted);
     font-style: italic;
@@ -400,11 +387,11 @@
     border-top: 1px solid var(--border);
   }
   .btn {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 13px;
     font-weight: 600;
     padding: 9px 18px;
-    border-radius: 4px;
+    border-radius:0;
     cursor: pointer;
     border: 1px solid var(--border);
     background: white;
@@ -413,10 +400,9 @@
   .btn:hover { background: var(--bg-soft); }
   .btn-primary {
     background: var(--green);
-    color: white;
-    border-color: var(--green);
+    color: white;border-color:#ffffff;
   }
-  .btn-primary:hover { background: #0c6643; }
+  .btn-primary:hover { background: #1b36c9; }
   .btn-ghost { color: var(--muted); }
 
   /* Print */
@@ -430,19 +416,31 @@
     select, input, textarea {
       border: none;
       border-bottom: 1px solid var(--border);
-      border-radius: 0;
+      border-radius:0;
       padding: 4px 0;
       background: transparent;
     }
     .empty-output, .empty-state { display: none; }
   }
+
+/* Two Weeks Out module band, October 2026 system */
+.two-band{display:flex;flex-wrap:wrap;gap:4px 18px;justify-content:space-between;align-items:center;padding:12px 24px;background:#7C97FF;color:#10131a;border-bottom:2px solid #10131a;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.two-band .two-wm{font-family:'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;font-weight:800;font-size:17px;letter-spacing:-.03em;line-height:1;color:#10131a}
+.two-band .two-mod{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;line-height:1.3;color:#10131a}
+body{-webkit-font-smoothing:antialiased}
+@media print{.two-band{display:none !important}}
+/* shared touches, October 2026 system */
+button,select,optgroup,option{font-family:inherit}
+input[type=checkbox],input[type=radio],input[type=range]{accent-color:#2747f5}
+h1 em,h1 i{font-style:normal !important;font-weight:inherit !important;color:inherit !important;background:linear-gradient(#ff5a1f,#ff5a1f) left calc(100% - .04em)/100% .09em no-repeat;padding-bottom:.02em;-webkit-box-decoration-break:clone;box-decoration-break:clone;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 </style>
 </head>
 <body>
+<div class="two-band"><span class="two-wm">Two Weeks Out</span><span class="two-mod">09 / Build and Lead Your Team</span></div>
 <div class="sheet">
 
 <header class="brand">
-  <p class="eyebrow">FoundersPath  ·  Team Building and Leadership Development</p>
+  <p class="eyebrow">Two Weeks Out  ·  Team Building and Leadership Development</p>
   <h1>Your First Three Hires</h1>
   <p class="lede">Work through the four frameworks from the lesson and walk away with a named, justified hire sequence.</p>
 </header>
@@ -570,7 +568,7 @@ const SCORE_ANCHORS = {
     "1 — Negligible: another quarter empty is fine",
     "2 — Mild: some inconvenience, no real damage",
     "3 — Moderate: real cost in time, money, or quality",
-    "4 — Serious: client risk or significant founder time burned",
+    "4 — Serious: client risk or significant owner time burned",
     "5 — Severe: revenue at risk, owner cannot sustain status quo"
   ],
   time: [
